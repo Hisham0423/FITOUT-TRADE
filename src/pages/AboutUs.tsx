@@ -1,5 +1,4 @@
 import React from 'react';
-import { LOGO_FULL } from '../assets/brand';
 import './AboutUs.css';
 
 const AboutUs: React.FC = () => (

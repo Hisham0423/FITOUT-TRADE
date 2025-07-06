@@ -1,5 +1,5 @@
 import React from 'react';
-import { LOGO_FULL, BRAND_YELLOW, BRAND_DARK } from '../assets/brand';
+import { LOGO_FULL } from '../assets/brand';
 import './Home.css';
 import { FiSearch, FiImage } from 'react-icons/fi';
 import SearchWithImageModal from '../components/SearchWithImageModal';
