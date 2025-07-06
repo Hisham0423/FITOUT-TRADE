@@ -1,0 +1,136 @@
+.login-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #fff 60%, #EFCF00 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(17, 24, 39, 0.10);
+  padding: 3rem 2.5rem 2.5rem 2.5rem;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-logo {
+  height: 56px;
+  margin-bottom: 1.5rem;
+}
+
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.login-subtitle {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social-btn {
+  width: 100%;
+  padding: 0.75rem 0;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.social-btn.google {
+  background: #fff;
+  color: #111827;
+  border: 1.5px solid #EFCF00;
+}
+.social-btn.google:hover {
+  background: #EFCF00;
+  color: #111827;
+}
+.social-btn.linkedin {
+  background: #0077b5;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.social-btn.linkedin:hover {
+  background: #005983;
+}
+
+.divider {
+  text-align: center;
+  color: #aaa;
+  margin: 0.5rem 0;
+  position: relative;
+}
+.divider span {
+  background: #fff;
+  padding: 0 1rem;
+  position: relative;
+  z-index: 1;
+}
+.divider:before {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; top: 50%;
+  height: 1px;
+  background: #eee;
+  z-index: 0;
+}
+
+.login-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1.5px solid #EFCF00;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.login-input:focus {
+  border: 1.5px solid #111827;
+}
+
+.main-btn {
+  width: 100%;
+  padding: 0.75rem 0;
+  background: #EFCF00;
+  color: #111827;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+.main-btn:hover {
+  background: #111827;
+  color: #EFCF00;
+}
+
+.login-footer {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #888;
+  text-align: center;
+}
+.login-footer a {
+  color: #EFCF00;
+  text-decoration: underline;
+} 

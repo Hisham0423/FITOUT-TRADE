@@ -1,0 +1,178 @@
+.swimodal-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(17, 24, 39, 0.25);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swimodal {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(17, 24, 39, 0.18);
+  max-width: 950px;
+  width: 100%;
+  padding: 2.5rem 2rem 2rem 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.swimodal-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  color: #111827;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 2;
+}
+.swimodal-content {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+.swimodal-left {
+  flex: 1 1 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  min-width: 260px;
+}
+.swimodal-image-upload {
+  background: #fffbe6;
+  border: 2px dashed #EFCF00;
+  border-radius: 1rem;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  color: #111827;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: border 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.swimodal-image-upload:hover {
+  border: 2px solid #EFCF00;
+  background: #fffde6;
+}
+.swimodal-askai {
+  background: #EFCF00;
+  color: #111827;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+.swimodal-askai:hover {
+  background: #111827;
+  color: #EFCF00;
+}
+.swimodal-right {
+  flex: 2 1 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.swimodal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.swimodal-tag {
+  background: #fffbe6;
+  color: #111827;
+  border-radius: 0.5rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.98rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1.5px solid #EFCF00;
+  transition: background 0.2s, color 0.2s;
+}
+.swimodal-tag:hover {
+  background: #EFCF00;
+  color: #111827;
+}
+.swimodal-colors {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.swimodal-color {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #eee;
+  cursor: pointer;
+  transition: border 0.2s;
+}
+.swimodal-color:hover {
+  border: 2px solid #EFCF00;
+}
+.swimodal-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1.2rem;
+}
+.swimodal-product-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(17, 24, 39, 0.07);
+  padding: 1rem 1rem 1.2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+.swimodal-product-card img {
+  width: 100%;
+  max-width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.swimodal-product-info {
+  text-align: center;
+}
+.swimodal-product-title {
+  font-weight: 700;
+  color: #111827;
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+.swimodal-product-desc {
+  color: #888;
+  font-size: 0.98rem;
+  margin-bottom: 0.3rem;
+}
+.swimodal-product-finishes {
+  color: #EFCF00;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+.swimodal-product-btn {
+  background: #EFCF00;
+  color: #111827;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.1rem;
+  font-weight: 600;
+  font-size: 0.98rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.swimodal-product-btn:hover {
+  background: #111827;
+  color: #EFCF00;
+} 

@@ -1,0 +1,90 @@
+.about-bg {
+  background: #fff;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.about-hero {
+  background: linear-gradient(120deg, #fff 60%, #EFCF00 100%);
+  padding: 3rem 2rem 2rem 2rem;
+  border-radius: 0 0 2.5rem 2.5rem;
+  text-align: left;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.about-main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 0 1rem;
+}
+
+.about-mission-vision {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+.about-block {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(17, 24, 39, 0.07);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  min-width: 260px;
+  flex: 1 1 260px;
+}
+.about-block h2 {
+  color: #EFCF00;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.about-block p {
+  color: #111827;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.about-story {
+  margin-bottom: 2.5rem;
+}
+
+.about-contact-map {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.about-contact {
+  flex: 1 1 300px;
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(17, 24, 39, 0.07);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.about-contact h2 {
+  color: #EFCF00;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.about-contact p {
+  color: #111827;
+  font-size: 1.05rem;
+  margin: 0;
+}
+.about-map {
+  flex: 1 1 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 260px;
+  margin-bottom: 1.5rem;
+} 
