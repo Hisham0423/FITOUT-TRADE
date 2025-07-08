@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Fitout-Trade/', // <-- This is critical for GitHub Pages!
+  base: '/FITOUT-TRADE/', // <-- This is critical for GitHub Pages!
 })
