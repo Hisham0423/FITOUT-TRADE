@@ -12,37 +12,37 @@ const productMatches = [
   {
     name: 'Expormim',
     desc: 'Senso Lounge Armchair',
-    img: '/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507066370.jpg',
+    img: '/Fitout-Trade/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507066370.jpg',
     finishes: 73,
   },
   {
     name: 'laCividina',
     desc: 'Velour Lounge Armchair',
-    img: '/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507066085.jpg',
+    img: '/Fitout-Trade/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507066085.jpg',
     finishes: 8,
   },
   {
     name: 'Poltrona Frau',
     desc: 'Nirvla Armchair',
-    img: '/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507069097.jpg',
+    img: '/Fitout-Trade/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507069097.jpg',
     finishes: 73,
   },
   {
     name: 'Moroso',
     desc: 'Rich Armchair',
-    img: '/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507062951.jpg',
+    img: '/Fitout-Trade/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507062951.jpg',
     finishes: 73,
   },
   {
     name: 'Arper',
     desc: 'Aston Lounge Chair',
-    img: '/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507066091.jpg',
+    img: '/Fitout-Trade/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507066091.jpg',
     finishes: 73,
   },
   {
     name: 'Artifort',
     desc: 'Bras Highback Chair',
-    img: '/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507064293.jpg',
+    img: '/Fitout-Trade/images/Fitout-productsandmaterials-furniture-&-decorated-houses/pincase202507064293.jpg',
     finishes: 73,
   },
 ];

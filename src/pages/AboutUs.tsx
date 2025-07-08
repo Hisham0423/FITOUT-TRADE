@@ -36,7 +36,7 @@ const AboutUs: React.FC = () => (
           Mobile: +971 5 898 19019</p>
         </div>
         <div className="about-map">
-          <img src="/images/about-map.png" alt="Fitout Trade Map" style={{ width: '100%', borderRadius: '1rem' }} />
+          <img src="/Fitout-Trade/images/about-map.png" alt="Fitout Trade Map" style={{ width: '100%', borderRadius: '1rem' }} />
         </div>
       </div>
     </section>
